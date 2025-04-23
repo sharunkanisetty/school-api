@@ -33,3 +33,11 @@ CREATE TABLE schools (
     latitude FLOAT NOT NULL,
     longitude FLOAT NOT NULL
 );
+
+## 🚀 Live Demo
+
+🌐 Frontend: [school-api-frontend.onrender.com](https://school-api-frontend.onrender.com)  
+🔗 Backend API: [school-api-backend.onrender.com](https://school-api-backend.onrender.com)
+
+> You can visit the frontend to test the app live.
+
