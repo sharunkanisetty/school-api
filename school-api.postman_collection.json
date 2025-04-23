@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "a2f87c9e-b852-4ba3-b4ba-edcde4d5ed00",
+		"name": "school-api",
+		"description": "This collection includes endpoints for managing schools: add, list, and sort by distance.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44302301"
+	},
+	"item": [
+		{
+			"name": "Add School",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "List Schools",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
