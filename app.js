@@ -24,9 +24,10 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(5001, () => {
-  console.log('Server is running on port 5001');
-});
+
+const port = process.env.PORT || 5001;
+app.listen(port, () => console.log(`Listening on port ${port}`));
+
 
 
 // Global error handler (add this at the bottom of app.js)
