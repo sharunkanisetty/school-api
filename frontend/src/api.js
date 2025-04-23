@@ -1,8 +1,12 @@
-// src/api.js
 import axios from 'axios';
 
+const baseURL = 
+  process.env.NODE_ENV === 'production'
+    ? 'https://school-api-backend.onrender.com/api'  // production
+    : 'http://localhost:5003/api';                   // development
+
 const api = axios.create({
-  baseURL: 'https://school-api-backend.onrender.com', // Prefix is correct here
+  baseURL,
   headers: {
     'Content-Type': 'application/json',
   },
