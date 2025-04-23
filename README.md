@@ -33,5 +33,3 @@ CREATE TABLE schools (
     latitude FLOAT NOT NULL,
     longitude FLOAT NOT NULL
 );
-![schoolapi2](https://github.com/user-attachments/assets/e686e7bc-253a-478f-84c9-7b04494c94bd)
-![schoolapi1](https://github.com/user-attachments/assets/89f3fe85-2de0-4dcc-b125-52c41034538b)
