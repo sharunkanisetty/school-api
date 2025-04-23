@@ -6,7 +6,7 @@ const cors = require('cors');
 const flash = require('connect-flash');
 
 app.use(cors({
-  origin: 'http://localhost:3000',  // Frontend is on port 5001
+  origin: 'https://school-api-frontend.onrender.com',  // Frontend is on port 5001
   methods: ['GET', 'POST'],
 }));
 app.use(flash());
