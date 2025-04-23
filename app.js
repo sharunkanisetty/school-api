@@ -14,7 +14,7 @@ app.use(flash());
 
 
 // Use the middleware to parse incoming JSON requests
-app.use(bodyParser.json());
+app.use(express.json());
 
 // If your route is prefixed with '/api', ensure you're hitting the correct URL in Postman
 app.use('/api', schoolRoutes); // Prefix for your routes, if applicable
